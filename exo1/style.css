@@ -1,0 +1,9 @@
+ul{
+  color: white;
+  background-color: black;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px;
+}
