@@ -1,3 +1,48 @@
-body{
+
+main{
   display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  background-color: #7F8C8D;
+  margin: 100px;
+  height: 300px;
+  padding: 15px;
+}
+
+.big{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  flex-basis: 50%;
+  align-content: stretch;
+  justify-content: space-around;
+}
+
+.center{
+  display: flex;
+}
+
+.rtop, .center, .rbottom{
+  flex-grow: 1;
+  margin: 0px;
+}
+
+.centrein{
+  flex-basis: 50%;
+}
+
+.right{
+  margin-left: 0px;
+}
+
+.left{
+  margin-right: 0px;
+}
+
+.blue{
+  background-color: #A2D9CE;
+}
+
+div{
+  margin: 10px;
 }
