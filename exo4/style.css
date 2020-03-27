@@ -1,0 +1,38 @@
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+main, header,aside,content,footer{
+  border-style: solid;
+}
+
+header, footer{
+  background-color: blue;
+  flex-basis: 100%;
+}
+
+footer{
+  align-self: flex-end;
+}
+
+aside,content{
+  align-self: center;
+  align-self: stretch;
+}
+
+aside{
+  background-color: violet;
+  flex-basis: 20%;
+}
+
+content{
+  background-color: orange;
+  flex-basis: 60%;
+}
+
+ul{
+  list-style: none;
+}
