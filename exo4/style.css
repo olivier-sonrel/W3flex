@@ -6,7 +6,7 @@ main{
   justify-content: center;
 }
 
-main, header,aside,content,footer{
+main, header,aside, #content,footer{
   border-style: solid;
   border-width: 4px;
 }
@@ -25,7 +25,7 @@ footer{
   align-self: flex-end;
 }
 
-aside,content{
+aside, #content{
   align-self: center;
   align-self: stretch;
 }
@@ -35,7 +35,7 @@ aside{
   flex-basis: 20%;
 }
 
-content{
+#content{
   background-color: orange;
   flex-basis: 58%;
 }
